@@ -9,6 +9,7 @@ public class Sach {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
+    
     @Column(unique = false, length = 200, nullable = false)
     private String name;
 
